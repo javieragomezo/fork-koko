@@ -4,7 +4,7 @@ export const settings: Array<ISetting> = [
         id: 'Members_Room_Name',
         type: SettingType.STRING,
         packageValue: '',
-        required: true,
+        required: false,
         public: false,
         i18nLabel: 'Koko_Members_Room_Name',
         i18nDescription: 'Koko_Members_Room_Name_Description',
